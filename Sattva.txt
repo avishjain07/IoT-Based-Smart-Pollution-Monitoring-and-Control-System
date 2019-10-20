@@ -1,0 +1,28 @@
+IOT based Smart Pollution Monitoring and Control System
+
+As a smart city citizen, we would like to propose an IoT based system to find the sources of pollution and ways to control the same so that policymakers can identify the big pollution spots and take corrective actions to control the same.
+
+Our proposed system will consist of multiple individual nodes comprising four units:
+1. PM 10/2.5 sensor for collecting pollution data.
+2. GPS Module to provide location of the node.
+3. A Pollution Control System.
+4. Solar based power supply to cut carbon signature and minimize pollution due to the system itself.
+
+Each node will collect data & then feed it to a processing unit which will send the data to the cloud server through the internet using Wi-Fi and GPRS.
+
+In our proposed solution, there are two types of nodes:
+1. Stationary Nodes:	Will be installed at multiple locations where probability of pollution is high like factories, industries, and traffic signals etc.
+			These Nodes will consist of a Particulate Matter(PM) sensor. These nodes will only send pollution data to the cloud server as they are fixed so their location is already known.
+2. Mobile Nodes:	Will be installed in vehicles to provide pollution data of the areas where pollution is normally considered to be low.
+			These Nodes will consist PM sensor, GSM module and GPS Module which will send pollution & location data to the cloud. Such mobile nodes can be installed in the government vehicles
+
+
+Mobile nodes can provide the pollution data for multiple locations with a minimal increase in the cost of the IOT network.
+Data collected from both stationary and mobile nodes can be sent to a Centralized Data Hub (CDH) or Server where we can create a map for pollution levels using the data of individual nodes.
+Development of mobile/web app can be utilized by both normal citizens as well as the government to detect and control pollutions of the affected areas.
+CDH can also send the instructions to the stationary nodes to activate the pollution control system whenever the levels rise beyond a predefined threshold.
+
+For the above-mentioned solution, we may use electrostatic precipitators or fogging systems, which already is in development stage under our project.
+The solution proposed above will be cost-effective due to the use of inexpensive and easily available components. Also, the proposed solution will be of low complexity due to its simplistic design. 
+In the future, we look forward to developing an efficient IOT based Pollution Controlling Unit (PCU) installed with our nodes so that when the pollution levels rise beyond a certain limit,
+it not only provides the information related to pollution but also gets activated to bring down the pollutants in cities.
